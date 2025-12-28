@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f9fbff;
+  color: #222;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  position: relative;
+}
+
+.top-label {
+  color: #f9b233;
+  font-weight: bold;
+}
+
+.hero-text h1 {
+  font-size: 42px;
+  margin: 15px 0;
+}
+
+.buttons button {
+  margin-right: 10px;
+}
+
+.btn-primary {
+  background: #f9b233;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 12px 20px;
+  border-radius: 30px;
+}
+
+/* HERO IMAGES */
+.hero-images {
+  display: grid;
+  grid-template-columns: repeat(2, 120px);
+  gap: 20px;
+}
+
+.hero-images img {
+  width: 120px;
+  border-radius: 14px;
+}
+
+/* SHAPES */
+.shape.circle {
+  width: 120px;
+  height: 120px;
+  background: #e7f0ff;
+  border-radius: 50%;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+}
+
+.shape.wave {
+  width: 60px;
+  height: 6px;
+  background: #1769ff;
+  border-radius: 10px;
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+}
+
+/* STATS */
+.stats {
+  background: #1769ff;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  text-align: center;
+}
+
+/* FEATURES */
+.features {
+  padding: 60px;
+  text-align: center;
+}
+
+.feature-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+.icon {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.blue { color: #1769ff; }
+.green { color: #2ecc71; }
+.orange { color: #f39c12; }
+.pink { color: #e84393; }
+
+/* INFO */
+.info {
+  display: flex;
+  align-items: center;
+  padding: 60px;
+  gap: 40px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.info-img img {
+  width: 320px;
+  border-radius: 20px;
+}
+
+/* CATEGORIES */
+.categories {
+  padding: 60px;
+  text-align: center;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.category-grid div {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
